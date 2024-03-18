@@ -1,0 +1,126 @@
+    body{
+        background-color: rgb(4, 7, 40);
+        font-family: "Press Start 2P";
+    }
+    .container {
+        border-radius: 10px;
+        width: 100%;
+    }
+    #controls {
+        color: #6aa1ba;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+    #controls > span {
+        margin-left: 20px;
+    }
+    #controls > span > span {
+        border: 2px groove #6aa1ba;
+        border-radius: 5px;
+        padding: 7px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .navbar-brand {
+        color: #E0E1DD !important;
+        cursor: pointer;
+        font-family: 'Press Start 2P';
+        margin-right: 50px
+    }
+    .nav-link a:link, a:hover {
+        color: #E0E1DD !important;
+        background-color: #758ba9 !important;
+        font-family: 'Pixelify Sans';
+        font-weight: 600;
+    }
+    .container {
+        border-radius: 10px;
+        width: 100%;
+    }
+    #specific-image {
+        width: 96px;
+        height: 56px;
+    }
+    .navbar {
+        background-color:#415A77
+    }
+    .nav-link {
+        color: #E0E1DD;
+        font-family: 'Pixelify Sans';
+    }
+    #controls > span:last-child > span {
+        transform: rotate(90deg);
+    }
+
+    .hide{
+        display: none;
+    }
+    .gamemain {
+        width: 1295px;
+        height: 90%;
+        margin: auto;
+        margin-top: 10px;
+        background-image: url('sky.gif');
+        background-size: 100% 100%;
+    }
+    .normal{
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        bottom: 120px;
+        background-image: url('player.png');
+        background-size: 100% 100%;
+    }
+    .kalaban{
+        width: 70px;
+        height: 90px;
+        position: absolute;
+        bottom: 120px;
+        background-image: url('enemy.png');
+        background-size: 100% 100%;
+    }
+    .displaygame{
+        width: 490px;
+        height: 580px;
+        background: #2d3436;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        border-right: 3px dashed #717c87;
+        border-left: 3px dashed #717c87;
+    }
+    .score{
+        position: absolute;
+        background: #415A77;
+        color: white;
+        padding: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .press2start{
+        width: 50%;
+        position: absolute;
+        background-color: #415A77;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        border: 2px solid #09263e;
+        padding: 15px;
+        margin: auto;
+        font-size: 50px;
+        z-index: 1;
+    }
+    .level button {
+        padding: 7px;
+        font-size: 14px;
+        background: white;
+        border: 1px solid rgb(138, 181, 233);
+        border-radius: 10px;
+        width: 100px;
+        cursor: pointer;
+        outline: none;
+    }
